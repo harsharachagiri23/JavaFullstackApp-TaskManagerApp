@@ -2,12 +2,12 @@
 
 Model → Repository → Service → Controller
 
-![My Project Screenshot](images/11.png)
-
 # MODEL (Entity) — “WHAT your data LOOKS like”
 - Represents your table in the database
 - Model = shape + structure of your data
 - blueprint/ Database table 
+
+![My Project Screenshot](images/11.png)
 
 # REPOSITORY — “How to TALK TO the database”
 - Repository is your **data access layer**
@@ -18,8 +18,6 @@ Model → Repository → Service → Controller
    - delete()
    - update()
 - Mental model: Repository = Database API
-
-![My Project Screenshot](images/22.png)
 
 ## SERVICE — “BUSINESS LOGIC lives here”
 - This is the brain of the backend
@@ -46,6 +44,8 @@ Model → Repository → Service → Controller
    - Controller should NOT contain business logic.
 - It’s just a traffic manager.
 - Mental model: **Controller = API Gateway**
+
+![My Project Screenshot](images/22.png)
 
 ## FULL FLOW (VERY IMPORTANT)
 
